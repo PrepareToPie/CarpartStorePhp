@@ -1,0 +1,21 @@
+{
+    "name": "ilsur/mytest.ga",
+    "description": "Website with registration",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "symfony/http-foundation": "^4.3",
+        "symfony/routing": "2.5.*",
+        "doctrine/annotations": "^1.8",
+      "ext-pdo": "*",
+      "ext-intl": "*",
+        "twbs/bootstrap": "^4.4",
+        "components/jquery": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ilsur\\": "src/site/"
+        }
+    }
+
+}

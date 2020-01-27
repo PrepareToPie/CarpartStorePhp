@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
+      <path value="$PROJECT_DIR$/vendor/components/jquery" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpStepFilterConfiguration">
+    <skipped_functions>
+      <skipped_function name="Composer\Autoload\ClassLoader-&gt;findFile" />
+      <skipped_function name="Composer\Autoload\ClassLoader-&gt;loadClass" />
+      <skipped_function name="Composer\Autoload\ClassLoader-&gt;findFileWithExtension" />
+      <skipped_function name="Composer\Autoload\includeFile" />
+      <skipped_function name="Symfony\Component\HttpFoundation\HeaderUtils::groupParts" />
+      <skipped_function name="Symfony\Component\HttpFoundation\ResponseHeaderBag-&gt;parseCacheControl" />
+      <skipped_function name="Symfony\Component\HttpFoundation\ResponseHeaderBag-&gt;set" />
+    </skipped_functions>
+  </component>
+</project>

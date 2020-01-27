@@ -5,10 +5,12 @@
  */
 
 // Init Framework
-require_once '../src/core/init.php';
-
+use Symfony\Component\HttpFoundation\Request;
+require_once '../src/Core/init.php';
+require_once '../vendor/autoload.php';
 //ToDo: delete
 //Something for proper stream options only
-echo '<title>MVC PHP</title>';
-
-process_request();
+//error_reporting(E_ERROR | E_WARNING | E_PARSE);
+$request = Request::createFromGlobals();
+$app = new CoreClass();
+$app->processRequest($request);
